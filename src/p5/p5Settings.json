@@ -1,0 +1,176 @@
+{
+  "general": {
+    "name": "General",
+    "singleSliders": [
+      {
+        "name": "Mouse Tracking Weight X",
+        "type": "continuous-slider",
+        "value": 0.2,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      {
+        "name": "Mouse Tracking Weight Y",
+        "type": "continuous-slider",
+        "value": 0.1,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      {
+        "name": "Base X",
+        "type": "continuous-slider",
+        "value": 0.5,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      {
+        "name": "Base Y",
+        "type": "continuous-slider",
+        "value": 0.5,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      }
+    ]
+  },
+  "background": {
+    "name": "Background",
+    "singleSliders": [
+      {
+        "name": "Background Red",
+        "type": "continuous-slider",
+        "value": 0,
+        "min": 0,
+        "max": 255
+      },
+      {
+        "name": "Background Green",
+        "type": "continuous-slider",
+        "value": 0,
+        "min": 0,
+        "max": 255
+      },
+      {
+        "name": "Background Blue",
+        "type": "continuous-slider",
+        "value": 37,
+        "min": 0,
+        "max": 255
+      }
+    ]
+  },
+  "sun": {
+    "name": "Sun",
+    "singleSliders": [
+      {
+        "name": "Radius of Sun",
+        "type": "continuous-slider",
+        "value": 67,
+        "min": 0,
+        "max": 400
+      },
+      {
+        "name": "Sun Red",
+        "type": "continuous-slider",
+        "value": 150,
+        "min": 0,
+        "max": 255
+      },
+      {
+        "name": "Sun Green",
+        "type": "continuous-slider",
+        "value": 220,
+        "min": 0,
+        "max": 255
+      },
+      {
+        "name": "Sun Blue",
+        "type": "continuous-slider",
+        "value": 89,
+        "min": 0,
+        "max": 255
+      },
+      {
+        "name": "Sun Alpha",
+        "type": "continuous-slider",
+        "value": 255,
+        "min": 0,
+        "max": 255
+      }
+    ]
+  },
+  "planet": {
+    "name": "Planet",
+    "singleSliders": [
+      {
+        "name": "Planet Count",
+        "type": "continuous-slider",
+        "value": 500,
+        "min": 0,
+        "max": 1000
+      }
+    ],
+    "rangedSliders": [
+      {
+        "name": "Planet Radius",
+        "type": "range-slider",
+        "value": [3, 10],
+        "min": 0,
+        "max": 400
+      },
+      {
+        "name": "Orbital Radius of Planets",
+        "type": "range-slider",
+        "value": [69, 1402],
+        "min": 0,
+        "max": 2000
+      },
+      {
+        "name": "Orbital Angle of Planets",
+        "type": "range-slider",
+        "value": [0, 360],
+        "min": 0,
+        "max": 360
+      },
+      {
+        "name": "Orbital Velocity of Planets",
+        "type": "range-slider",
+        "value": [-0.06, 0.06],
+        "min": 0,
+        "max": 5,
+        "step": 0.1
+      },
+      {
+        "name": "Planet Red",
+        "type": "range-slider",
+        "value": [11, 236],
+        "min": 0,
+        "max": 255
+      },
+      {
+        "name": "Planet Green",
+        "type": "range-slider",
+        "value": [9, 223],
+        "min": 0,
+        "max": 255
+      },
+      {
+        "name": "Planet Blue",
+        "type": "range-slider",
+        "value": [28, 252],
+        "min": 0,
+        "max": 255
+      },
+      {
+        "name": "Planet Alpha",
+        "type": "range-slider",
+        "value": [74, 210],
+        "min": 0,
+        "max": 255
+      }
+    ]
+  }
+}
