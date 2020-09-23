@@ -1,5 +1,13 @@
+The Solar System is a visual effect created using React as a base plate and p5js for the animation details.
+
+This is a repository for three files neccessary to run the "solar system" p5 sketch. If you want to customize the properties of your sketch, you can adjust most settings, those found in p5Settings.json, [here](https://joelwakefield.com/SolarSystem). You can save and copy the values after adjusting the sliders to the settings you want. The size and location of the sketch you will want to adjust in the p5Sketch file; the canvas properties for p5 tend to override any css styles, but perhaps that's lack of experience on my part.
+
+Other than that, you if have any questions, comments, suggestions, issues, don't forget to like and sub- I'm kidding - I'd love any help or advice I can get. Enjoy!
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-You will also need to install the P5 library, which you can read about here (https://p5js.org/).
+You will also need to install the [p5js](https://p5js.org/) library, which you can read about.
 
 ### `npm install p5`
 
