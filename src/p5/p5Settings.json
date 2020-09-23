@@ -5,7 +5,7 @@
       {
         "name": "Mouse Tracking Weight X",
         "type": "continuous-slider",
-        "value": 0.2,
+        "value": 0.5,
         "min": 0,
         "max": 1,
         "step": 0.01
@@ -13,7 +13,7 @@
       {
         "name": "Mouse Tracking Weight Y",
         "type": "continuous-slider",
-        "value": 0.1,
+        "value": 0.5,
         "min": 0,
         "max": 1,
         "step": 0.01
@@ -56,7 +56,7 @@
       {
         "name": "Background Blue",
         "type": "continuous-slider",
-        "value": 37,
+        "value": 20,
         "min": 0,
         "max": 255
       }
@@ -68,7 +68,7 @@
       {
         "name": "Radius of Sun",
         "type": "continuous-slider",
-        "value": 67,
+        "value": 150,
         "min": 0,
         "max": 400
       },
@@ -89,14 +89,14 @@
       {
         "name": "Sun Blue",
         "type": "continuous-slider",
-        "value": 89,
+        "value": 220,
         "min": 0,
         "max": 255
       },
       {
         "name": "Sun Alpha",
         "type": "continuous-slider",
-        "value": 255,
+        "value": 240,
         "min": 0,
         "max": 255
       }
@@ -117,19 +117,19 @@
       {
         "name": "Planet Radius",
         "type": "range-slider",
-        "value": [3, 10],
+        "value": [10, 40],
         "min": 0,
         "max": 400
       },
       {
         "name": "Orbital Radius of Planets",
         "type": "range-slider",
-        "value": [69, 1402],
+        "value": [200, 1000],
         "min": 0,
         "max": 2000
       },
       {
-        "name": "Orbital Angle of Planets",
+        "name": "Initial Orbital Angle of Planets",
         "type": "range-slider",
         "value": [0, 360],
         "min": 0,
@@ -138,36 +138,36 @@
       {
         "name": "Orbital Velocity of Planets",
         "type": "range-slider",
-        "value": [-0.06, 0.06],
-        "min": 0,
-        "max": 5,
-        "step": 0.1
+        "value": [0.02, 0.08],
+        "min": -1,
+        "max": 1,
+        "step": 0.01
       },
       {
         "name": "Planet Red",
         "type": "range-slider",
-        "value": [11, 236],
+        "value": [100, 200],
         "min": 0,
         "max": 255
       },
       {
         "name": "Planet Green",
         "type": "range-slider",
-        "value": [9, 223],
+        "value": [100, 200],
         "min": 0,
         "max": 255
       },
       {
         "name": "Planet Blue",
         "type": "range-slider",
-        "value": [28, 252],
+        "value": [100, 200],
         "min": 0,
         "max": 255
       },
       {
         "name": "Planet Alpha",
         "type": "range-slider",
-        "value": [74, 210],
+        "value": [100, 200],
         "min": 0,
         "max": 255
       }

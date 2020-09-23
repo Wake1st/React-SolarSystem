@@ -22,7 +22,7 @@ let minValues = [];
 let maxValues = [];
 
 export function setup(sketch, rangedSliders, singleSliders) {
-  console.log("setup...");
+  //console.log("setup...");
 
   setupScreen(sketch, rangedSliders, singleSliders);
 
@@ -33,16 +33,17 @@ export function setup(sketch, rangedSliders, singleSliders) {
 export function draw(sketch, rangedSliders, singleSliders) {
   sketch.background(singleValues[10], singleValues[11], singleValues[12]);
 
+  //  Set the origin of the solar system based on mouse weight and
   setOrigin(sketch);
 
+  //  Rerender planets according to thier movement
   movePlanets(sketch);
   drawPlanets(sketch);
 
+  //  Redraw the sun
   sun.x = originX;
   sun.y = originY;
   drawCircle(sketch, sun);
-
-  displayFPS(sketch);
 }
 
 export function windowResized(sketch) {
@@ -207,11 +208,4 @@ class Planet extends Star {
     this.orbitalAngle = orbitalAngle;
     this.orbitalVelocity = orbitalVelocity;
   }
-}
-
-function displayFPS(sketch) {
-  let fps = sketch.frameRate();
-  sketch.fill(255);
-  sketch.stroke(0);
-  sketch.text("FPS: " + fps.toFixed(2), 10, sketch.height - 10);
 }
