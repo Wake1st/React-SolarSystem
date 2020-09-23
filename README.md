@@ -1,4 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You will also need to install the P5 library, which you can read about here (https://p5js.org/).
+
+### `npm install p5`
+
+That's it!
 
 ## Available Scripts
 
